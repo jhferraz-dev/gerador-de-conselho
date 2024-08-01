@@ -1,0 +1,57 @@
+body {
+    background-color: var(--cor-fundo);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.card {
+    max-width: 540px;
+    background-color: var(--cor-card);
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card .title-card {
+    color: var(--cor-btn-title);
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-top: 30px;
+}
+
+.card .text-card {
+    color: var(--cor-texto);
+    font-size: 28px;
+    text-align: center;
+    padding: 25px 20px 35px;
+}
+
+.card picture .image-card{
+    width: 100%;   
+}
+
+.card .botao-card{
+    background-color: var(--cor-btn-title);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(85%);
+}
+
+.card .botao-card:hover {
+    color: var(--cor-btn-title);
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+  }
